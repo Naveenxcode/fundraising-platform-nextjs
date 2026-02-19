@@ -3,7 +3,7 @@
 import React, { useEffect,useState } from "react" 
 import { useRouter } from 'next/navigation' 
 import { useSession } from 'next-auth/react'
-import {updateProfile} from "@/action/useractions" 
+import {updateProfile} from "@/action/useractions"
   
 
 function Dashboard() {
